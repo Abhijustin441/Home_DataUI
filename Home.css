@@ -1,0 +1,73 @@
+body {
+  font: 1.1em / 1.5 system-ui;
+  width: clamp(480px, 90%, 1200px);
+  margin: 0 auto;
+  background: orange ;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 20px;
+  border: 1px solid black;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background: linear-gradient(195deg,rgb(27,45,197) 25%,silver 75%);
+   box-shadow: 5px 5px black;
+}
+
+p{
+  padding: 1em;
+}
+h2 {
+  font-size: 1.3em;
+}
+form{
+  padding: 1em;
+  border:1px solid black;
+  border-radius: 1em;
+  box-shadow: 5px 5px black;
+}
+form div {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label[for],
+select {
+  flex: 1;
+  border-radius: 1em;
+  padding: 0.2em;
+}
+
+form button{
+  border-radius: 1em;
+}
+
+form button:hover{
+  background-color: #faf8f8;
+  cursor: pointer;
+}
+
+
+#output {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 20px;
+}
+
+#output article {
+  padding: 0 20px;
+  background-color: #efefef;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+}
+
+#output ul {
+  list-style-type: none;
+  padding-left: 0;
+}
